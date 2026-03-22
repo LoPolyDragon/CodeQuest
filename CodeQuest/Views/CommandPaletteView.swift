@@ -87,7 +87,7 @@ struct RepeatPickerView: View {
                     Text("\(n)").tag(n)
                 }
             }
-            .pickerStyle(.wheel)
+            .pickerStyle(.inline)
             .frame(height: 120)
 
             HStack(spacing: 12) {
